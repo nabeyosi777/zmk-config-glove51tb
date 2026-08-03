@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - SCROLL
+  - '&scroll_layer'
   - ''''
   - N
   - M
@@ -42,14 +42,14 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT CONTROL
-  - SYM
+  - '&sym_layer'
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
   - '&mkp LCLK'
   - SPACE
   - SPACE
-  - FUN
+  - '&fun_layer'
   - \
   - {t: ▽, type: trans}
   NUM:
@@ -146,7 +146,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
@@ -293,11 +293,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
