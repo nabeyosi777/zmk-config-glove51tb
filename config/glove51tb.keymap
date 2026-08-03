@@ -81,7 +81,9 @@
                 <&kp F13>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_release>;
+                <&kp F13>,
+                <&macro_release>,
+                <&mo 4>;
 
             label = "MOUSE_LAYER";
         };
@@ -90,10 +92,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 5 &kp F14>,
+                <&macro_press>,
+                <&mo 5>,
+                <&macro_press>,
+                <&kp F14>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_release>;
+                <&kp F14>,
+                <&macro_release>,
+                <&mo 5>;
 
             label = "SCROLL_LAYER";
         };
@@ -102,10 +109,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 2 &kp F15>,
+                <&macro_press>,
+                <&mo 2>,
+                <&macro_press>,
+                <&kp F15>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_release>;
+                <&kp F15>,
+                <&macro_release>,
+                <&mo 2>;
 
             label = "SYM_LAYER";
         };
@@ -114,10 +126,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 3 &kp F16>,
+                <&macro_press>,
+                <&mo 3>,
+                <&macro_press>,
+                <&kp F16>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_release>;
+                <&kp F16>,
+                <&macro_release>,
+                <&mo 3>;
 
             label = "FUN_LAYER";
         };
@@ -126,10 +143,15 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&mo 0 &kp F17>,
+                <&macro_press>,
+                <&mo 0>,
+                <&macro_press>,
+                <&kp F17>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_release>;
+                <&kp F17>,
+                <&macro_release>,
+                <&mo 0>;
 
             label = "DEFAULT_LAYER";
         };
