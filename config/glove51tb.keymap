@@ -139,7 +139,7 @@
         mouse_toggle: mouse_tap {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&tog 4 &kp F13>;
+            bindings = <&macro_tap>, <&tog 4>, <&macro_tap>, <&kp F13>;
 
             label = "MOUSE_TAP";
         };
@@ -147,7 +147,7 @@
         default_toggle: default_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&tog 0 &kp F17>;
+            bindings = <&macro_tap>, <&tog 0>, <&macro_tap>, <&kp F17>;
 
             label = "DEFAULT_TOGGLE";
         };
@@ -203,10 +203,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans          &kp LC(LS(T))    &kp LC(F4)        &kp LC(T)          &trans           &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &mkp MB4        &mkp LCLK        &msc MOVE_Y(10)   &mkp RCLK          &trans           &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &mkp MB5        &kp C_VOLUME_UP  &msc MOVE_Y(-10)  &kp C_VOLUME_DOWN  &kp K_MUTE       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LANGUAGE_1  &kp LANGUAGE_2                                                        &default_toggle  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                           &trans          &kp LC(LS(T))    &kp LC(F4)        &kp LC(T)          &trans      &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &default_toggle  &mkp MB4        &mkp LCLK        &msc MOVE_Y(10)   &mkp RCLK          &trans      &kp ENTER
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &mkp MB5        &kp C_VOLUME_UP  &msc MOVE_Y(-10)  &kp C_VOLUME_DOWN  &kp K_MUTE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LANGUAGE_1   &kp LANGUAGE_2                                                        &trans      &trans
             >;
         };
 
