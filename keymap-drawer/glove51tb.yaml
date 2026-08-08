@@ -228,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&default_toggle'
   - '&mkp MB4'
   - '&mkp LCLK'
   - '&msc MOVE_Y(10)'
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - LANGUAGE 1
   - LANGUAGE 2
-  - '&default_toggle'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
