@@ -8,7 +8,7 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: badjeff
       url-base: https://github.com/badjeff
-      - name: yamaryu211
+    - name: yamaryu211
       url-base: https://github.com/yamaryu211
   projects:
     - name: zmk
