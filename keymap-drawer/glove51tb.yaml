@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - '&mouse_toggle'
+  - MOUSE
   - H
   - J
   - K
@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - '&scroll_layer'
+  - SYM
   - ''''
   - N
   - M
@@ -42,16 +42,16 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT CONTROL
-  - '&sym_layer'
-  - LEFT CONTROL
+  - FUN
+  - LEFT GUI
   - LEFT ALT
   - LEFT GUI
   - '&mkp LCLK'
   - SPACE
-  - SPACE
-  - '&fun_layer'
+  - LANG ZENKAKUHANKAKU
+  - {t: DEFAULT, h: toggle}
   - \
-  - {t: ▽, type: trans}
+  - RALT
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&ind_con'
-  - '&ind_bat'
+  - {t: '&ind_bat', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,6 @@ layers:
   - Ctl+F4
   - Ctl+T
   - {t: ▽, type: trans}
-  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -229,12 +228,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - '&mkp MB4'
   - '&mkp LCLK'
-  - '&msc MOVE_Y(10)'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -245,7 +245,6 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB5'
   - VOLUME UP
-  - '&msc MOVE_Y(-10)'
   - VOLUME DOWN
   - MUTE
   - {t: ▽, type: trans}
@@ -256,8 +255,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANGUAGE 1
-  - LANGUAGE 2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
@@ -274,13 +274,6 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F11
   - F12
   - {t: ▽, type: trans}
@@ -289,15 +282,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -313,5 +313,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [35, 36]
+- p: [21, 22]
   k: SCROLL
