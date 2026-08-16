@@ -26,14 +26,13 @@
 		threshold = <20>;              // この累積移動量を超えたらAML発動（お好みで調整）
 		require-prior-idle-ms = <300>; // 直近300ms以内にキー入力があれば発動しない
 		reset-timeout-ms = <500>;      // 0.5s動きが止まったら累積移動量をリセット
-};
+	};
 
-/ {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer_threshold 4 700>;  // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
+        input-processors = <&zip_temp_layer_threshold 4 100000>;  // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化
 
         scroller {
             layers = <5>;                                      // スクロールレイヤー
