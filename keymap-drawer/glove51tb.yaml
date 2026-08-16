@@ -45,11 +45,11 @@ layers:
   - '&fun_layer'
   - LEFT GUI
   - LEFT ALT
-  - LANG ZENKAKUHANKAKU
+  - LANGUAGE 2
   - SPACE
   - '&default_toggle'
   - '&default_toggle'
-  - LANG ZENKAKUHANKAKU
+  - {t: LANGUAGE 1, h: toggle}
   - \
   - RALT
   NUM:
