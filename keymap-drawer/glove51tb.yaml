@@ -45,11 +45,11 @@ layers:
   - FUN
   - LEFT GUI
   - LEFT ALT
-  - LEFT GUI
-  - '&mkp LCLK'
-  - SPACE
   - LANG ZENKAKUHANKAKU
+  - SPACE
   - {t: DEFAULT, h: toggle}
+  - {t: DEFAULT, h: toggle}
+  - LANG ZENKAKUHANKAKU
   - \
   - RALT
   NUM:
