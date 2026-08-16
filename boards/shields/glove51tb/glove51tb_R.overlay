@@ -26,7 +26,7 @@
 		threshold = <20>;              // この累積移動量を超えたらAML発動（お好みで調整）
 		require-prior-idle-ms = <300>; // 直近300ms以内にキー入力があれば発動しない
 		reset-timeout-ms = <500>;      // 0.5s動きが止まったら累積移動量をリセット
-	};
+};
 
 / {
     trackball_listener {
