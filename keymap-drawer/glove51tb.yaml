@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - MOUSE
+  - '&mouse_toggle'
   - H
   - J
   - K
@@ -33,7 +33,7 @@ layers:
   - C
   - V
   - B
-  - SYM
+  - '&sym_layer'
   - ''''
   - N
   - M
@@ -42,13 +42,13 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT CONTROL
-  - FUN
+  - '&fun_layer'
   - LEFT GUI
   - LEFT ALT
   - LANGUAGE 2
   - SPACE
-  - DEFAULT
-  - DEFAULT
+  - '&default_toggle'
+  - '&default_toggle'
   - {t: LANGUAGE 1, h: toggle}
   - \
   - RALT
@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&ind_con'
-  - {t: '&ind_bat', type: held}
+  - '&ind_bat'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp LCLK'
   - '&mkp RCLK'
