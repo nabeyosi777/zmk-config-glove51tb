@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: badjeff
       url-base: https://github.com/badjeff
+      - name: yamaryu211
+      url-base: https://github.com/yamaryu211
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,5 +21,8 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3.0
+    - name: zmk-input-processor-temp-layer-threshold
+      remote: yamaryu211
+      revision: main
   self:
     path: config
