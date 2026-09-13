@@ -131,12 +131,20 @@
             label = "MOUSE_TAP";
         };
 
-        default_toggle: default_toggle {
+        default_to: default_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&to 0>, <&macro_tap>, <&kp F16>;
 
             label = "DEFAULT_TOGGLE";
+        };
+
+        num_to: num_to {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&to 1>, <&macro_tap>, <&kp F14>;
+
+            label = "NUM_TO";
         };
     };
 
@@ -146,10 +154,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC           &kp Q       &kp W         &kp E         &kp R           &kp T                                         &kp Y           &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp TAB           &kp A       &kp S         &kp D         &kp F           &kp G      &trans           &mouse_toggle     &kp H           &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
-&kp LEFT_SHIFT    &kp Z       &kp X         &kp C         &kp V           &kp B      &sym_layer       &kp SINGLE_QUOTE  &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &fun_layer  &kp LEFT_GUI  &kp LEFT_ALT  &kp LANGUAGE_2  &kp SPACE  &default_toggle  &default_toggle   &kt LANGUAGE_1                             &kp BACKSLASH  &kp RALT
+&kp ESC           &kp Q       &kp W         &kp E         &kp R      &kp T                                     &kp Y        &kp U  &kp I      &kp O    &kp P          &kp BSPC
+&kp TAB           &kp A       &kp S         &kp D         &kp F      &kp G      &mouse_toggle  &kt LANGUAGE_1  &kp H        &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
+&kp LEFT_SHIFT    &kp Z       &kp X         &kp C         &kp V      &kp B      &num_to        &kt LANGUAGE_2  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &fun_layer  &kp LEFT_GUI  &kp LEFT_ALT  &kp GRAVE  &kp SPACE  &default_to    &kp SPACE       &default_to                             &kp BACKSLASH  &kp RALT
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -158,10 +166,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans  &trans                            &trans  &trans  &trans  &trans  &kp NUMBER_7  &trans
+&kp Q         &kp W         &kp E         &kp R         &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &kp U         &trans
+&kp A         &kp S         &kp D         &kp F         &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &kp J         &kp K
+&kp Z         &kp X         &kp C         &kp V         &trans  &trans  &default_to  &default_to  &trans                          &kp M         &kp COMMA
             >;
         };
 
