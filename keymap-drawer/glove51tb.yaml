@@ -19,8 +19,8 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
   - '&mouse_toggle'
+  - {t: LANGUAGE 1, h: toggle}
   - H
   - J
   - K
@@ -33,8 +33,8 @@ layers:
   - C
   - V
   - B
-  - '&sym_layer'
-  - ''''
+  - '&num_to'
+  - {t: LANGUAGE 2, h: toggle}
   - N
   - M
   - ','
@@ -45,14 +45,30 @@ layers:
   - '&fun_layer'
   - LEFT GUI
   - LEFT ALT
-  - LANGUAGE 2
+  - '`'
   - SPACE
-  - '&default_toggle'
-  - '&default_toggle'
-  - {t: LANGUAGE 1, h: toggle}
+  - '&default_to'
+  - SPACE
+  - '&default_to'
   - \
   - RALT
   NUM:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - {t: ▽, type: trans}
+  - Q
+  - W
+  - E
+  - R
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -61,6 +77,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - U
+  - {t: ▽, type: trans}
+  - A
+  - S
+  - D
+  - F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -69,41 +91,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - J
+  - K
+  - Z
+  - X
+  - C
+  - V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&default_to'
+  - '&default_to'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - M
+  - ','
   SYM:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
