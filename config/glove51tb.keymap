@@ -165,7 +165,7 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &none     &kp UP    &none      &kp F1  &kp F2                  &kp STAR      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS  &kp BACKSPACE
+&trans  &none     &kp UP    &none      &kp F1  &kp F2                  &kp STAR      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS  &kp BSPC
 &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp F3  &kp F4  &trans  &trans  &kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp ENTER
 &trans  &kp F5    &kp F6    &kp F7     &kp F8  &kp F9  &trans  &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp RIGHT_SHIFT
 &trans  &kp F10   &kp F11   &kp F12    &trans  &trans  &trans  &trans  &trans                                                  &kp DOT    &kp COMMA
@@ -175,7 +175,7 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND                  &kp LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL         &kp TILDE       &kp BACKSPACE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND                  &kp LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL         &kp TILDE       &kp BSPC
 &kp CARET        &kp SINGLE_QUOTE   &kp PIPE  &trans      &trans       &trans         &trans  &trans  &kp LEFT_BRACE        &kp RBRC               &kp PLUS       &kp STAR          &kp AT_SIGN     &kp ENTER
 &trans           &trans             &trans    &trans      &trans       &trans         &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QMARK       &kp RIGHT_SHIFT
 &trans           &trans             &trans    &trans      &trans       &trans         &trans  &trans  &trans                                                                        &kp UNDERSCORE  &kp RALT
