@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
-  DEFAULT: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, '&mouse_toggle', '`', H, J, K, L, ;, RETURN, LEFT SHIFT, Z, X, C, V, B, '&fun_toggle', '&default_to',
-    N, M, ',', ., /, RIGHT SHIFT, LEFT CONTROL, '`', LEFT GUI, LEFT ALT, '&num_layer', SPACE, '&default_to', SPACE, '&sym_layer', \, RALT]
+  DEFAULT: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, '&mouse_toggle', AltGr+`, H, J, K, L, ;, RETURN, LEFT SHIFT, Z, X, C, V, B, '&fun_toggle',
+    '&default_to', N, M, ',', ., /, RIGHT SHIFT, LEFT CONTROL, Alt+`, LEFT GUI, LEFT ALT, '&num_layer', SPACE, '&default_to', SPACE, '&sym_layer', \, RALT]
   NUM:
   - {t: ▽, type: trans}
   - ''
@@ -62,7 +62,7 @@ layers:
   - '%'
   - '&'
   - (
-  - {t: ), h: toggle}
+  - )
   - '-'
   - '='
   - '~'
@@ -171,7 +171,7 @@ layers:
   - Ctl+T
   - '7'
   - {t: ▽, type: trans}
-  - {t: Q, h: toggle}
+  - Q
   - W
   - E
   - R
