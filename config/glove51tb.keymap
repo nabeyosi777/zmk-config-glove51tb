@@ -166,10 +166,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp ESC           &kp Q      &kp W         &kp E         &kp R       &kp T                                  &kp Y       &kp U  &kp I      &kp O    &kp P          &kp BSPC
-&kp TAB           &kp A      &kp S         &kp D         &kp F       &kp G      &mouse_toggle  &kp GRAVE    &kp H       &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
-&kp LEFT_SHIFT    &kp Z      &kp X         &kp C         &kp V       &kp B      &fun_toggle    &default_to  &kp N       &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp GRAVE  &kp LEFT_GUI  &kp LEFT_ALT  &num_layer  &kp SPACE  &default_to    &kp SPACE    &sym_layer                             &kp BACKSLASH  &kp RALT
+&kp ESC           &kp Q          &kp W         &kp E         &kp R       &kp T                                    &kp Y       &kp U  &kp I      &kp O    &kp P          &kp BSPC
+&kp TAB           &kp A          &kp S         &kp D         &kp F       &kp G      &mouse_toggle  &kp RA(GRAVE)  &kp H       &kp J  &kp K      &kp L    &kp SEMI       &kp RETURN
+&kp LEFT_SHIFT    &kp Z          &kp X         &kp C         &kp V       &kp B      &fun_toggle    &default_to    &kp N       &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp LA(GRAVE)  &kp LEFT_GUI  &kp LEFT_ALT  &num_layer  &kp SPACE  &default_to    &kp SPACE      &sym_layer                             &kp BACKSLASH  &kp RALT
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -188,7 +188,7 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND                  &kp LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL         &kp TILDE       &kp BSPC
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL         &kp TILDE       &kp BSPC
 &kp CARET        &kp SINGLE_QUOTE   &kp PIPE  &trans      &trans       &trans         &trans  &trans  &kp LEFT_BRACE        &kp RBRC               &kp PLUS       &kp STAR          &kp AT_SIGN     &kp ENTER
 &trans           &trans             &trans    &trans      &trans       &trans         &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN  &kp QMARK       &kp RIGHT_SHIFT
 &trans           &trans             &trans    &trans      &trans       &trans         &trans  &trans  &trans                                                                        &kp UNDERSCORE  &kp RALT
@@ -209,7 +209,7 @@
             label = "FUN";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &none   &none                        &none     &kp LC(LS(T))    &kp LC(F4)         &kp LC(T)   &kp NUMBER_7  &trans
-&kt Q         &kp W         &kp E         &kp R         &none   &none   &trans  &trans       &mkp MB4  &mkp LCLK        &mkp RCLK          &none       &kp U         &trans
+&kp Q         &kp W         &kp E         &kp R         &none   &none   &trans  &trans       &mkp MB4  &mkp LCLK        &mkp RCLK          &none       &kp U         &trans
 &kp A         &kp S         &kp D         &kp F         &none   &none   &trans  &default_to  &mkp MB5  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp J         &trans
 &kp Z         &kp X         &kp C         &kp V         &trans  &trans  &trans  &trans       &trans                                                    &kp M         &trans
             >;
