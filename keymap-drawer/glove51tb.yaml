@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
-  DEFAULT: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, '', AltGr+`, H, J, K, L, ;, ENTER, LEFT SHIFT, Z, X, C, V, B, FUN, SPACE, N, M, ',', ., /,
-    RIGHT SHIFT, LEFT CONTROL, Alt+`, LEFT GUI, LEFT ALT, NUM, SPACE, DEFAULT, SYM, MOUSE, \, RALT]
+  DEFAULT: [ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, '', AltGr+`, H, J, K, L, ;, ENTER, LEFT SHIFT, Z, X, C, V, B, '&fun_toggle', SPACE, N, M,
+    ',', ., /, RIGHT SHIFT, LEFT CONTROL, Alt+`, LEFT GUI, LEFT ALT, '&num_layer', SPACE, '&default_to', '&sym_layer', '&mouse_toggle', \, RALT]
   NUM:
   - {t: ▽, type: trans}
   - ''
@@ -47,7 +47,7 @@ layers:
   - F10
   - F11
   - F12
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - _
   - RALT
@@ -155,7 +155,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   FUN:
@@ -191,7 +191,7 @@ layers:
   - F
   - G
   - H
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
   - VOLUME UP
